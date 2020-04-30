@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-  url: 'https://guseowhtjs.github.io/',
+  url: 'https://guseowhtjs1231.github.io/',
   pathPrefix: '/',
-  title: 'Welcome to Ha's blog',
+  title: "Welcome to Ha's blog",
   subtitle: '안녕하세요 하영빈의 블로그에 오신 것을 환영합니다!!행복한 하루 되세요!',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'John ha',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: '안녕하세요 하영빈의 블로그에 오신 것을 환영합니다! 행복한 하루 되세요!!.',
     contacts: {
       email: 'guseowhtjs@gmail.com',
       facebook: '#',
