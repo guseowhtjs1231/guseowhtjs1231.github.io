@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'http://guseowhtjs1231.github.io/',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
+  title: 'Blog by John Ha',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -25,9 +25,9 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'John Ha',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: '안녕하세요 하영빈의 블로그에 오신 것을 환영합니다!!.',
     contacts: {
       email: '',
       facebook: '#',
