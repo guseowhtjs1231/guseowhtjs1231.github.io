@@ -3,7 +3,7 @@ title: Perfect day for Perfecting something
 date: "2020-04-30T23:46:37.121Z"
 template: "post"
 draft: false
-slug: "perfect day for perfecting something"
+slug: "perfecting-the-art-of-perfection"
 category: "Daily note"
 tags:
   - "Weather"
