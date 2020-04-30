@@ -29,11 +29,11 @@ module.exports = {
     photo: '/photo.jpg',
     bio: '안녕하세요 하영빈의 블로그에 오신 것을 환영합니다!!.',
     contacts: {
-      email: '',
+      email: 'guseowhtjs@gmail.com',
       facebook: '#',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'github.com/guseowhtjs1231',
       rss: '',
       vkontakte: '',
       linkedin: '#',
