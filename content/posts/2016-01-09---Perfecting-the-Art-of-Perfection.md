@@ -1,18 +1,18 @@
 ---
-title: Perfecting the Art of Perfection
-date: "2016-09-01T23:46:37.121Z"
+title: Perfect day for Perfecting something
+date: "2020-04-30T23:46:37.121Z"
 template: "post"
 draft: false
-slug: "perfecting-the-art-of-perfection"
-category: "Design Inspiration"
+slug: "perfect day for perfecting something"
+category: "Daily note"
 tags:
-  - "Handwriting"
-  - "Learning to write"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
+  - "Weather"
+  - "Lovely"
+description: "아름 다운 이강산을 지키는 우리 사나이 기백으로 오늘을 산다. "
 socialImage: "/media/image-2.jpg"
 ---
 
-Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.
+Shoe me the code!!! We are in wecode!!
 
 ![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](/media/image-2.jpg)
 
