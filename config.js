@@ -33,7 +33,7 @@ module.exports = {
       facebook: '#',
       telegram: '#',
       twitter: '#',
-      github: 'github.com/guseowhtjs1231',
+      github: 'guseowhtjs1231',
       rss: '',
       vkontakte: '',
       linkedin: '#',
