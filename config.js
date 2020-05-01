@@ -4,7 +4,7 @@ module.exports = {
   url: 'http://guseowhtjs1231.github.io/',
   pathPrefix: '/',
   title: 'Blog by John Ha',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  subtitle: '행복한 미래를 꿈꾸어 봅니다.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -26,7 +26,7 @@ module.exports = {
   ],
   author: {
     name: 'John Ha',
-    photo: '/photo.jpg',
+    photo: '/john.jpeg',
     bio: '안녕하세요 하영빈의 블로그에 오신 것을 환영합니다!!.',
     contacts: {
       email: 'guseowhtjs@gmail.com',
