@@ -88,7 +88,8 @@ DNS는 이름과 숫자 간의 매핑을 관리하여 마치 전화번호부와 
 	<blockquote>
 		<footer>
 		<p>
-			내 인생에 보증이란 없다. No co-sign in my life
+			내 인생에 보증이란 없다.<br>
+			 No co-sign in my life
 		</p>	
 		<cite>— Youngbin John Ha.</cite>
 		</footer>
@@ -98,13 +99,3 @@ DNS는 이름과 숫자 간의 매핑을 관리하여 마치 전화번호부와 
 
 
 
-```css
-#header h1 a {
-  display: block;
-  width: 300px;
-  height: 80px;
-}
-```
-
-
-![Test SVG](/media/cpu.svg)
