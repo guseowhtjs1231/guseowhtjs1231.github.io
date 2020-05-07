@@ -9,8 +9,8 @@ tags:
   - "Django"
   - "Python"
   - "Wecode"
-description: "쟝고를 알기엔 내가 아직 너무 부족하다."
-socialImage: "/media/05072020blog.png"
+description:"쟝고를 알기엔 내가 아직 너무 부족하다."
+socialImage:"/media/05072020blog.png"
 ---
 
 ![05072020blog.png](/media/05072020blog.png)

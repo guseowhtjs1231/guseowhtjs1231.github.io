@@ -10,7 +10,7 @@ tags:
   - "Gatsby"
   - "Typography"
 description:"웹서비스를 만들기 쉽게 도와주는 우리의 장고!! 친숙해지자"
-socialImage: "/media/gutenberg.jpg"
+socialImage:"/media/gutenberg.jpg"
 ---
 쟝고 접한지 두번째 날이다. 화이팅
 
