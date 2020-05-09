@@ -4,7 +4,7 @@ date: "2020-05-01T15:30:03.284Z"
 template: "post"
 draft: false
 slug: "exploring-the-django-tutorial"
-category: "Typography"
+category: "Django"
 tags:
   - "Open source"
   - "Gatsby"

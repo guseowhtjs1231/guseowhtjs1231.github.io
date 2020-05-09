@@ -1,10 +1,10 @@
 ---
-title: Perfect day for Perfecting something
+title: Perfect day to be perfect
 date: "2020-04-30T23:46:37.121Z"
 template: "post"
 draft: false
 slug: "perfecting-the-art-of-perfection"
-category: "Daily note"
+category: "Foundatione"
 tags:
   - "Weather"
   - "Lovely"
@@ -12,10 +12,6 @@ description: "아름 다운 이강산을 지키는 우리 사나이 기백으로
 socialImage: "/media/image-2.jpg"
 ---
 
-Shoe me the code!!! We are in wecode!!
 
-![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](/media/image-2.jpg)
 
-왜 안되는 걸까... 궁금한데 제발 되라:stique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. 
 
-Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
