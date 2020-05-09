@@ -1,19 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by John Ha]]></title><description><![CDATA[행복한 미래를 꿈꾸어 봅니다.]]></description><link>http://guseowhtjs1231.github.io/</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 09 May 2020 08:23:41 GMT</lastBuildDate><item><title><![CDATA[TIL-장고 네번째 튜토리얼(Django tutorial#4]]></title><description><![CDATA[끝날 듯 안 끝나는 장고 튜토리얼 ]]></description><link>http://guseowhtjs1231.github.io//posts/explore-django-tutorial-fourth</link><guid isPermaLink="false">http://guseowhtjs1231.github.io//posts/explore-django-tutorial-fourth</guid><pubDate>Fri, 08 May 2020 17:36:37 GMT</pubDate><content:encoded>&lt;p&gt;장고 이용해서 뭐 만드는거 꽤나 복잡하다~하지만 뭐 크게 문제 될 건 없다. 구조랑 왔다갔다하고 모듈이나 클래스들을 몰라서 그렇지 대충 뭐하는 건지만 알면 되지 않겠는가 ,,, 이런 긍정의 마음을 갖기 전까지 많은 고생이 있었다… 오늘도 화이팅하자 갈길 머니까&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by John Ha]]></title><description><![CDATA[행복한 미래를 꿈꾸어 봅니다.]]></description><link>http://guseowhtjs1231.github.io/</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 09 May 2020 08:49:20 GMT</lastBuildDate><item><title><![CDATA[TIL-장고 네번째 튜토리얼(Django tutorial#4]]></title><description><![CDATA[끝날 듯 안 끝나는 장고 튜토리얼 ]]></description><link>http://guseowhtjs1231.github.io//posts/explore-django-tutorial-fourth</link><guid isPermaLink="false">http://guseowhtjs1231.github.io//posts/explore-django-tutorial-fourth</guid><pubDate>Fri, 08 May 2020 17:36:37 GMT</pubDate><content:encoded>&lt;p&gt;장고 이용해서 뭐 만드는거 꽤나 복잡하다~하지만 뭐 크게 문제 될 건 없다. 구조랑 왔다갔다하고 모듈이나 클래스들을 몰라서 그렇지 대충 뭐하는 건지만 알면 되지 않겠는가 ,,, 이런 긍정의 마음을 갖기 전까지 많은 고생이 있었다… 오늘도 화이팅하자 갈길 머니까&lt;/p&gt;
 &lt;h4 id=&quot;finally-we-are-here-4-django-tutorial&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#finally-we-are-here-4-django-tutorial&quot; aria-label=&quot;finally we are here 4 django tutorial permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Finally we are here #4 django tutorial!!&lt;/h4&gt;
 &lt;h2 id=&quot;write-a-mininal-form&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#write-a-mininal-form&quot; aria-label=&quot;write a mininal form permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Write a mininal form&lt;/h2&gt;
 &lt;p&gt;바로 전 튜토리얼에서 했던 template안에 detail.html을 대충 수정했었는데 이번에 제대로 받았다. &lt;/p&gt;
 &lt;p&gt;polls/templates/polls/detail.html&lt;/p&gt;
+&lt;!--
 &lt;h1&gt;{{ question.question_text }}&lt;/h1&gt;
-&lt;p&gt;{% if error&lt;em&gt;message %}&lt;p&gt;&lt;strong&gt;{{ error&lt;/em&gt;message }}&lt;/strong&gt;&lt;/p&gt;{% endif %}&lt;/p&gt;
-&lt;form action=&quot;{% url &apos;polls:vote&apos; question.id %}&quot; method=&quot;post&quot;&gt;
-&lt;p&gt;{% csrf_token %}&lt;/p&gt;
-&lt;p&gt;{% for choice in question.choice_set.all %}&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  &amp;lt;input type=&amp;quot;radio&amp;quot; name=&amp;quot;choice&amp;quot; id=&amp;quot;choice{{ forloop.counter }}&amp;quot; value=&amp;quot;{{ choice.id }}&amp;quot;&amp;gt;
 
-  &amp;lt;label for=&amp;quot;choice{{ forloop.counter }}&amp;quot;&amp;gt;{{ choice.choice_text }}&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;{% endfor %}&lt;/p&gt;
+{% if error_message %}&lt;p&gt;&lt;strong&gt;{{ error_message }}&lt;/strong&gt;&lt;/p&gt;{% endif %}
+
+
+
+&lt;form action=&quot;{% url &apos;polls:vote&apos; question.id %}&quot; method=&quot;post&quot;&gt;
+
+{% csrf_token %}
+
+{% for choice in question.choice_set.all %}
+
+      &lt;input type=&quot;radio&quot; name=&quot;choice&quot; id=&quot;choice{{ forloop.counter }}&quot; value=&quot;{{ choice.id }}&quot;&gt;
+
+      &lt;label for=&quot;choice{{ forloop.counter }}&quot;&gt;{{ choice.choice_text }}&lt;/label&gt;&lt;br&gt;
+
+{% endfor %}
+
 &lt;input type=&quot;submit&quot; value=&quot;Vote&quot;&gt;
+
 &lt;/form&gt;
+--&gt;
 &lt;p&gt;일단 집어 넣었다. 무슨말인지는 설명이 나오는데… 대충 짚고 가자 …&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;각질문 선택 항목에 대한 라디오 버튼을 표시하고 클릭할 수 있게 한다.  (참고 왼쪽 사진!!) 버튼 옆 value는 질문과 연관된 선택 항목의 ID이다. 각 버튼의 name은 “Choice”이다.&lt;/li&gt;

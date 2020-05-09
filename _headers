@@ -124,41 +124,6 @@
   Link: </component---src-templates-post-template-js-341377ecbd12fcf1a29d.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/exploring-the-django-tutorial/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/explore-django-tutorial-fourth
-  Link: </webpack-runtime-fd638b923aa7b3e7f758.js>; rel=preload; as=script
-  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
-  Link: </framework-bc3c81326843ee5b6ef6.js>; rel=preload; as=script
-  Link: </532a2f07-175c659ee05f5043c826.js>; rel=preload; as=script
-  Link: </app-f5780dc3ae4e0842f0e8.js>; rel=preload; as=script
-  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
-  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-89cc0232a4cc8902491d.js>; rel=preload; as=script
-  Link: </643651a62fb35a9bb4f20061cb1f214a352d7976-449e28f0d4c81a571d03.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-341377ecbd12fcf1a29d.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/explore-django-tutorial-fourth/page-data.json>; rel=preload; as=fetch; crossorigin
-/pages/about/
-  Link: </webpack-runtime-fd638b923aa7b3e7f758.js>; rel=preload; as=script
-  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
-  Link: </framework-bc3c81326843ee5b6ef6.js>; rel=preload; as=script
-  Link: </532a2f07-175c659ee05f5043c826.js>; rel=preload; as=script
-  Link: </app-f5780dc3ae4e0842f0e8.js>; rel=preload; as=script
-  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
-  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-89cc0232a4cc8902491d.js>; rel=preload; as=script
-  Link: </component---src-templates-page-template-js-f41fce11490cd09a8c85.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/pages/about/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/til-django-tutorial-3
-  Link: </webpack-runtime-fd638b923aa7b3e7f758.js>; rel=preload; as=script
-  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
-  Link: </framework-bc3c81326843ee5b6ef6.js>; rel=preload; as=script
-  Link: </532a2f07-175c659ee05f5043c826.js>; rel=preload; as=script
-  Link: </app-f5780dc3ae4e0842f0e8.js>; rel=preload; as=script
-  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
-  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-89cc0232a4cc8902491d.js>; rel=preload; as=script
-  Link: </643651a62fb35a9bb4f20061cb1f214a352d7976-449e28f0d4c81a571d03.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-341377ecbd12fcf1a29d.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/til-django-tutorial-3/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/a-session-what-is-webservice
   Link: </webpack-runtime-fd638b923aa7b3e7f758.js>; rel=preload; as=script
   Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
@@ -171,17 +136,6 @@
   Link: </component---src-templates-post-template-js-341377ecbd12fcf1a29d.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/a-session-what-is-webservice/page-data.json>; rel=preload; as=fetch; crossorigin
-/pages/contacts/
-  Link: </webpack-runtime-fd638b923aa7b3e7f758.js>; rel=preload; as=script
-  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
-  Link: </framework-bc3c81326843ee5b6ef6.js>; rel=preload; as=script
-  Link: </532a2f07-175c659ee05f5043c826.js>; rel=preload; as=script
-  Link: </app-f5780dc3ae4e0842f0e8.js>; rel=preload; as=script
-  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
-  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-89cc0232a4cc8902491d.js>; rel=preload; as=script
-  Link: </component---src-templates-page-template-js-f41fce11490cd09a8c85.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/pages/contacts/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/How-does-the-web-work
   Link: </webpack-runtime-fd638b923aa7b3e7f758.js>; rel=preload; as=script
   Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
@@ -194,6 +148,52 @@
   Link: </component---src-templates-post-template-js-341377ecbd12fcf1a29d.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/How-does-the-web-work/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/til-django-tutorial-3
+  Link: </webpack-runtime-fd638b923aa7b3e7f758.js>; rel=preload; as=script
+  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
+  Link: </framework-bc3c81326843ee5b6ef6.js>; rel=preload; as=script
+  Link: </532a2f07-175c659ee05f5043c826.js>; rel=preload; as=script
+  Link: </app-f5780dc3ae4e0842f0e8.js>; rel=preload; as=script
+  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-89cc0232a4cc8902491d.js>; rel=preload; as=script
+  Link: </643651a62fb35a9bb4f20061cb1f214a352d7976-449e28f0d4c81a571d03.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-341377ecbd12fcf1a29d.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/til-django-tutorial-3/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/explore-django-tutorial-fourth
+  Link: </webpack-runtime-fd638b923aa7b3e7f758.js>; rel=preload; as=script
+  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
+  Link: </framework-bc3c81326843ee5b6ef6.js>; rel=preload; as=script
+  Link: </532a2f07-175c659ee05f5043c826.js>; rel=preload; as=script
+  Link: </app-f5780dc3ae4e0842f0e8.js>; rel=preload; as=script
+  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-89cc0232a4cc8902491d.js>; rel=preload; as=script
+  Link: </643651a62fb35a9bb4f20061cb1f214a352d7976-449e28f0d4c81a571d03.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-341377ecbd12fcf1a29d.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/explore-django-tutorial-fourth/page-data.json>; rel=preload; as=fetch; crossorigin
+/pages/contacts/
+  Link: </webpack-runtime-fd638b923aa7b3e7f758.js>; rel=preload; as=script
+  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
+  Link: </framework-bc3c81326843ee5b6ef6.js>; rel=preload; as=script
+  Link: </532a2f07-175c659ee05f5043c826.js>; rel=preload; as=script
+  Link: </app-f5780dc3ae4e0842f0e8.js>; rel=preload; as=script
+  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-89cc0232a4cc8902491d.js>; rel=preload; as=script
+  Link: </component---src-templates-page-template-js-f41fce11490cd09a8c85.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/pages/contacts/page-data.json>; rel=preload; as=fetch; crossorigin
+/pages/about/
+  Link: </webpack-runtime-fd638b923aa7b3e7f758.js>; rel=preload; as=script
+  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
+  Link: </framework-bc3c81326843ee5b6ef6.js>; rel=preload; as=script
+  Link: </532a2f07-175c659ee05f5043c826.js>; rel=preload; as=script
+  Link: </app-f5780dc3ae4e0842f0e8.js>; rel=preload; as=script
+  Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-89cc0232a4cc8902491d.js>; rel=preload; as=script
+  Link: </component---src-templates-page-template-js-f41fce11490cd09a8c85.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/pages/about/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/django
   Link: </webpack-runtime-fd638b923aa7b3e7f758.js>; rel=preload; as=script
   Link: </styles-6b8affa5cc22cb60670e.js>; rel=preload; as=script
