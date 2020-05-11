@@ -1,5 +1,5 @@
 ---
-title: TIL-장고 튜토리얼 #5..(Django tutorial #5)
+title: TIL-장고 튜토리얼5..(Django tutorial 5)
 date: "2020-05-11T17:26:37.121Z"
 template: "post"
 draft: false
