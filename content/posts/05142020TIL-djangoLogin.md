@@ -4,7 +4,7 @@ date: "2020-05-14T21:15:37.121Z"
 template: "post"
 draft: false
 slug: "django-practice"
-category: "Foundatione"
+category: "Django"
 tags:
   - "Django"
   - "Practice"
