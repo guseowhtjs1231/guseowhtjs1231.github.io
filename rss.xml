@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by John Ha]]></title><description><![CDATA[행복한 미래를 꿈꾸어 봅니다.]]></description><link>http://guseowhtjs1231.github.io/</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 May 2020 04:54:34 GMT</lastBuildDate><item><title><![CDATA[Session-데이터베이스(Database), SQL]]></title><description><![CDATA[데이터베이스에 대해서 배운다. 무슨 말인지는 차차 이해하기러한다. ]]></description><link>http://guseowhtjs1231.github.io//posts/Database-and-SQL</link><guid isPermaLink="false">http://guseowhtjs1231.github.io//posts/Database-and-SQL</guid><pubDate>Thu, 14 May 2020 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;DBMS는 데이터를 저장하고 관리하는 시스템으로 개발자의 기본 소양중 하나이다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by John Ha]]></title><description><![CDATA[행복한 미래를 꿈꾸어 봅니다.]]></description><link>http://guseowhtjs1231.github.io/</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 May 2020 13:33:14 GMT</lastBuildDate><item><title><![CDATA[TIL - 셀레니움 (Selenium) 기초!!]]></title><description><![CDATA[동적웹페이지를 크롤링 할 수 있게 해주는 셀레니움 ]]></description><link>http://guseowhtjs1231.github.io//posts/s-e-l-e-n-i-u-m</link><guid isPermaLink="false">http://guseowhtjs1231.github.io//posts/s-e-l-e-n-i-u-m</guid><pubDate>Sat, 16 May 2020 22:30:37 GMT</pubDate><content:encoded>&lt;p&gt;참고 사이트 : &lt;a href=&quot;https://www.guru99.com/introduction-to-selenium.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.guru99.com/introduction-to-selenium.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;셀레니움은-무엇일까&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%85%80%EB%A0%88%EB%8B%88%EC%9B%80%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C&quot; aria-label=&quot;셀레니움은 무엇일까 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;셀레니움은 무엇일까?&lt;/h3&gt;
+&lt;p&gt;: 셀레니움(Selenium)은 다양한 브라우저와 플랫폼에서 웹 응용프로그램의 유효성을 체크하는 무료 오픈소스인 자동 테스트 프레임 워크이다. Java, C#, Python 등과 같은 여러 프로그래밍 언어를 사용하여 Selenium 테스트 스크립트를 작성할 수 있다.&lt;/p&gt;
+&lt;p&gt;셀레니움 발전도&lt;/p&gt;
+&lt;h3 id=&quot;사전-준비-사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%82%AC%EC%A0%84-%EC%A4%80%EB%B9%84-%EC%82%AC%ED%95%AD&quot; aria-label=&quot;사전 준비 사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;사전 준비 사항&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;웹드라이버 설치 (브라우저를 제어하기 위해) : &lt;a href=&quot;https://sites.google.com/a/chromium.org/chromedriver/downloads&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://sites.google.com/a/chromium.org/chromedriver/downloads&lt;/a&gt; (크롬유저)&lt;/li&gt;
+&lt;li&gt;셀레니움(Selenium) 설치 :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;’ pip install selenium ’  or ’ conda install -c conda-forge selenium ’&lt;/p&gt;
+&lt;h3 id=&quot;selenium-시작&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#selenium-%EC%8B%9C%EC%9E%91&quot; aria-label=&quot;selenium 시작 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Selenium 시작&lt;/h3&gt;
+&lt;p&gt;python py파일 만들지 않고 그냥 바로 python 쳐서 실행해 봤다.&lt;/p&gt;
+&lt;p&gt;일단 구글웹드라이버가 실행이 되지 않아서 애먹었다. 보안 문제 인 듯한데 알 수 없는 개발자라고 맥에서 열기를 막아서 혹시나 하는 마음에 이리저리 찾아봤다.(이상한 프로그램이고, 다운받은 홈페이지가 이상한 곳인지) &lt;/p&gt;
+&lt;p&gt;크게 이상이 없어 보여 확인없이 열기를 하여서 새로운 창을 얻었다.&lt;/p&gt;
+&lt;p&gt;일단 &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;python&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;from selenium import webdriver&lt;/p&gt;
+&lt;p&gt;path = ‘드라이버 파일 위치’ User/downloads/chromedriver’  # 확장명은 빼고 입력함.&lt;/p&gt;
+&lt;p&gt;driver = webdriver.Chrome(path)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;하니 이렇게 결과가 나왔다.
+
+
+
+
+
+
+
+
+구글 페이지로 가고 싶다면 
+
+```python
+
+driver.get(&amp;quot;https://www.google.com&amp;quot;)
+
+#webdriver가 google 페이지에 접속하도록 명령함.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;구글 창&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;close&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;#webdriver를 종료하여 창을 끈다.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;매우 단순한 것들을 해보았다. 더 단순한 것들을 해본다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;assert&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Google&quot;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title    &lt;span class=&quot;token comment&quot;&gt;#내가 구글에 제대로 접속했는지 타이틀 체크&lt;/span&gt;
+
+elem &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;find_element_by_name&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;q&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;      &lt;span class=&quot;token comment&quot;&gt;# name=&apos;q&apos;를 찾아준다.&lt;/span&gt;
+
+elem&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;clear&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;                              &lt;span class=&quot;token comment&quot;&gt;#디폴트값을 지워주고&lt;/span&gt;
+
+elem&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;send_keys&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Selenium&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;token comment&quot;&gt;#검색어를 입력한다.&lt;/span&gt;
+
+elem&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;submit&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;                           &lt;span class=&quot;token comment&quot;&gt;#검색을 실행한다.&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;assert&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;No results found.&quot;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;page_source    &lt;span class=&quot;token comment&quot;&gt;#검색이 제대로 되었는지 확인한다.&lt;/span&gt;
+
+driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;close&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;                             &lt;span class=&quot;token comment&quot;&gt;#브라우저를 종료한다.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;구글 검색창을 검사했을 때 가운데 위에서 살짝 오른쪽에 보면 name=“q”를 볼 수 있다.
+find&lt;em&gt;elemeny&lt;/em&gt;by&lt;em&gt;tag&lt;/em&gt;name(‘h1’)&lt;/p&gt;
+&lt;p&gt;find&lt;em&gt;element&lt;/em&gt;by&lt;em&gt;css&lt;/em&gt;selector(‘#css &gt; div.selector’)&lt;/p&gt;
+&lt;p&gt;find&lt;em&gt;elemeny&lt;/em&gt;by&lt;em&gt;class&lt;/em&gt;name(‘some&lt;em&gt;class&lt;/em&gt;name’)&lt;/p&gt;
+&lt;p&gt;find&lt;em&gt;element&lt;/em&gt;by_xpath(‘/html/body/some/xpath’)&lt;/p&gt;
+&lt;p&gt;find&lt;em&gt;element&lt;/em&gt;by&lt;em&gt;id(‘HTML&lt;/em&gt;id’)&lt;/p&gt;
+&lt;p&gt;이렇게 by_name 외에 단일 element에 접근하는 메소드가 있다.&lt;/p&gt;
+&lt;p&gt;여러 elements에 접근하는 메소드는 위의 메소드에서 elements로 바꿔주면 된다.&lt;/p&gt;
+&lt;p&gt;만약 맨위의 assert 구문에 AssertionError가 뜨면 그 error가 생겼을 때의 문제도 고려하여 프로그램을 만들면 된다.&lt;/p&gt;
+&lt;p&gt;elem.send_key(‘selenium’) 했을 때 화면&lt;/p&gt;
+&lt;p&gt;번외로 인스타그램 회원 가입하기.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&apos;http&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;www&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;instagram&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;com&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&quot;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+element &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;find_element_by_name&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;username&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+element&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;clear&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+element&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;send_keys&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;ThisisID&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;Keys&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;TAB&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+element &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;find_element_by_name&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;password&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+element&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;send_keys&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;ThisisPASSWORD&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;Keys&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;RETURN&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;close&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;input창이 username인 것을 검사를 통해 쉽게 알 수 있다.&lt;/p&gt;
+&lt;p&gt;위의 코드로 실제로 로그인을 시도한 화면. 잘 적용 되었다.
+여기에서 Keys가 나오는데 이거는 &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; selenium&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;webdriver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;common&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;keys &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Keys&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;를 넣어주어야 가능하다. 저거를 인풋한 다음 어떤 행동을 취할지 RETURN키를 누를 것인지 TAB인지 ENTER인지 해주는 것이다. 사실 TAB을 해봐야 다시 password의 id나 name을 찾아야 되서 굳이 필요가 없었지만 RETURN키는 바로 로그인을 할 수 있게 해주어서 유용했다. 이로써 셀레니움 기초를 알아봤는데 이걸 활용하여 스타벅스 홈페이지 음료부분을 크롤링 해 볼 예정이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Session-데이터베이스(Database), SQL]]></title><description><![CDATA[데이터베이스에 대해서 배운다. 무슨 말인지는 차차 이해하기러한다. ]]></description><link>http://guseowhtjs1231.github.io//posts/Database-and-SQL</link><guid isPermaLink="false">http://guseowhtjs1231.github.io//posts/Database-and-SQL</guid><pubDate>Thu, 14 May 2020 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;DBMS는 데이터를 저장하고 관리하는 시스템으로 개발자의 기본 소양중 하나이다.&lt;/p&gt;
 &lt;h2 id=&quot;database-기초-이해-및-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#database-%EA%B8%B0%EC%B4%88-%EC%9D%B4%ED%95%B4-%EB%B0%8F-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;database 기초 이해 및 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Database 기초 이해 및 설치&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;데이터를 저장 및 보존하는 시스템&lt;/li&gt;
