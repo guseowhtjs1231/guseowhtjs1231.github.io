@@ -11,7 +11,7 @@ tags:
 description: "장고 로그인과 회원가입, 글쓰기 기능 구현 "
 socialImage: "/media/image-2.jpg"
 ---
-[##_Image|kage@baCudw/btqEeqzioW6/rnGC7WFlSbgdjEvYRWCkEK/img.png|floatRight|data-origin-width="0" data-origin-height="0" width="340"|||_##]
+![capture1.png](/media/capture1.png)
 
 휴 오늘 주옥같은 멘토의 피드백을 도강하고 완성한 나의 기능들... 여러 곳 짜집기를 했지만(무에서 유를 창조하진 못함ㅜㅜ) 그래도 나만의 스타일로 바꾸고 여러 에러들을 잡으려고 노력 많이 했다. 내가 생각한 에러들은 다 막았다. 적당히 성취감을 느끼는 작업이였다. ㅎㅎ
 
@@ -158,8 +158,8 @@ urlpatterns = [
 
 이로써 account sign-up과 sign-in기능이 구현되었다. 테스트를 해보면 다음과 같다.
 
-[##_ImageGrid|kage@dAemku/btqEd702047/9zo3UcsGwPcZ9zzGugrV70/img.png,kage@37KZb/btqEeY3Du0N/INHF60OySxX6CZT4UcxeGK/img.png,kage@el2IyG/btqEd702776/ANd2moozHUnxtkNgkf04LK/img.png|data-origin-width="0" data-origin-height="0" width="350" style="width: 40.3673%; margin-right: 10px;",data-origin-width="0" data-origin-height="0" width="350" style="width: 34.5454%; margin-right: 10px;",data-origin-width="0" data-origin-height="0" width="350" style="width: 22.7618%;"|왼쪽부터)가입 성공 화면 , 이미 가입된 이메일일 때, GET일 때 가입된 아이디 리스트 리턴_##][##_ImageGrid|kage@bNSHxW/btqEdwNyVb3/GXRjbYxEDRBdELeKe60YKK/img.png,kage@b6oPxn/btqEcUg3iDh/udZwa0eOGorj8yiOL66ZbK/img.png,kage@viSEK/btqEcUVB15J/5I4QCeWIdmGOUKXOl2Mrc1/img.png|data-origin-width="0" data-origin-height="0" width="350" style="width: 37.3085%; margin-right: 10px;",data-origin-width="0" data-origin-height="0" width="350" style="width: 30.2852%; margin-right: 10px;",data-origin-width="0" data-origin-height="0" width="350" style="width: 30.0807%;"|왼쪽부터)로그인 성공 화면, 잘못된 패스워드일 때, 잘못된 아이디 일때._##]
-
+![capture2.png](/media/capture2.png)
+![capture3.png](/media/capture3.png)
 ---
 
 이제
@@ -293,7 +293,7 @@ INSTALLED_APPS = [
 
 이로써 comment 기능의 구현이 끝났다. 잘 작동 되는지 확인 할 수 있다.
 
-[##_ImageGrid|kage@bs0rKb/btqEdjt6H20/fHuzQZ2uXUrthEK3BWJqr1/img.png,kage@dKaTbN/btqEdw04IoT/5KDctYAPRKxQwTYwjTV8G1/img.png,kage@povdP/btqEeZO0ira/kmmZOWrYei8iBvHhPSuz51/img.png|data-origin-width="0" data-origin-height="0" width="350" style="width: 42.0008%; margin-right: 10px;",data-origin-width="0" data-origin-height="0" width="350" style="width: 34.1673%; margin-right: 10px;",data-origin-width="0" data-origin-height="0" width="350" style="width: 21.5063%;"|왼쪽부터)comment기능으로 글을 올림, 가입되어 있지 않은 이름으로 posting했을 때, GET으로 코멘츠리스트 리턴받은 것_##]
+![capture4.png](/media/capture4.png)
 
 잡을 수 있는 에러들을 더 잡아야 하지만 사질 잘 모르겠다. 없다고 믿고 싶다.
 
