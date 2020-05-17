@@ -73,26 +73,16 @@
 <p>일단 구글웹드라이버가 실행이 되지 않아서 애먹었다. 보안 문제 인 듯한데 알 수 없는 개발자라고 맥에서 열기를 막아서 혹시나 하는 마음에 이리저리 찾아봤다.(이상한 프로그램이고, 다운받은 홈페이지가 이상한 곳인지) </p>
 <p>크게 이상이 없어 보여 확인없이 열기를 하여서 새로운 창을 얻었다.</p>
 <p>일단 </p>
-<p><code class="language-text">python</code></p>
-<p>from selenium import webdriver</p>
-<p>path = ‘드라이버 파일 위치’ User/downloads/chromedriver’  # 확장명은 빼고 입력함.</p>
-<p>driver = webdriver.Chrome(path)</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">하니 이렇게 결과가 나왔다.
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token keyword">from</span> selenium <span class="token keyword">import</span> webdriver
 
+path <span class="token operator">=</span> <span class="token string">'드라이버 파일 위치'</span> User<span class="token operator">/</span>downloads<span class="token operator">/</span>chromedriver'  <span class="token comment"># 확장명은 빼고 입력함.</span>
 
+driver <span class="token operator">=</span> webdriver<span class="token punctuation">.</span>Chrome<span class="token punctuation">(</span>path<span class="token punctuation">)</span></code></pre></div>
+<p>하니 이렇게 결과가 나왔다.</p>
+<p>구글 페이지로 가고 싶다면 </p>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python">driver<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">"https://www.google.com"</span><span class="token punctuation">)</span>
 
-
-
-
-
-
-구글 페이지로 가고 싶다면 
-
-```python
-
-driver.get(&quot;https://www.google.com&quot;)
-
-#webdriver가 google 페이지에 접속하도록 명령함.</code></pre></div>
+<span class="token comment">#webdriver가 google 페이지에 접속하도록 명령함.</span></code></pre></div>
 <p>구글 창</p>
 <div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python">driver<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
 
@@ -111,18 +101,29 @@ elem<span class="token punctuation">.</span>submit<span class="token punctuation
 <span class="token keyword">assert</span> <span class="token string">"No results found."</span> <span class="token keyword">not</span> <span class="token keyword">in</span> driver<span class="token punctuation">.</span>page_source    <span class="token comment">#검색이 제대로 되었는지 확인한다.</span>
 
 driver<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>                             <span class="token comment">#브라우저를 종료한다.</span></code></pre></div>
-<p>구글 검색창을 검사했을 때 가운데 위에서 살짝 오른쪽에 보면 name=“q”를 볼 수 있다.
-find<em>elemeny</em>by<em>tag</em>name(‘h1’)</p>
-<p>find<em>element</em>by<em>css</em>selector(‘#css > div.selector’)</p>
-<p>find<em>elemeny</em>by<em>class</em>name(‘some<em>class</em>name’)</p>
-<p>find<em>element</em>by_xpath(‘/html/body/some/xpath’)</p>
-<p>find<em>element</em>by<em>id(‘HTML</em>id’)</p>
+<p>구글 검색창을 검사했을 때 가운데 위에서 살짝 오른쪽에 보면 name=“q”를 볼 수 있다.</p>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python">find_elemeny_by_tag_name<span class="token punctuation">(</span><span class="token string">'h1'</span><span class="token punctuation">)</span>
+
+find_element_by_css_selector<span class="token punctuation">(</span><span class="token string">'#css > div.selector'</span><span class="token punctuation">)</span>
+
+find_elemeny_by_class_name<span class="token punctuation">(</span><span class="token string">'some_class_name'</span><span class="token punctuation">)</span>
+
+find_element_by_xpath<span class="token punctuation">(</span><span class="token string">'/html/body/some/xpath'</span><span class="token punctuation">)</span>
+
+find_element_by_id<span class="token punctuation">(</span><span class="token string">'HTML_id'</span><span class="token punctuation">)</span></code></pre></div>
 <p>이렇게 by_name 외에 단일 element에 접근하는 메소드가 있다.</p>
 <p>여러 elements에 접근하는 메소드는 위의 메소드에서 elements로 바꿔주면 된다.</p>
 <p>만약 맨위의 assert 구문에 AssertionError가 뜨면 그 error가 생겼을 때의 문제도 고려하여 프로그램을 만들면 된다.</p>
-<p>elem.send_key(‘selenium’) 했을 때 화면</p>
-<p>번외로 인스타그램 회원 가입하기.</p>
-<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python">driver<span class="token punctuation">.</span>get<span class="token punctuation">(</span>'http<span class="token punctuation">:</span>www<span class="token punctuation">.</span>instagram<span class="token punctuation">.</span>com<span class="token operator">/</span>"<span class="token punctuation">)</span>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python">elem<span class="token punctuation">.</span>send_key<span class="token punctuation">(</span><span class="token string">'selenium'</span><span class="token punctuation">)</span>``` 했을 때 화면
+
+
+
+
+번외로 인스타그램 회원 가입하기<span class="token punctuation">.</span>
+
+```python
+
+driver<span class="token punctuation">.</span>get<span class="token punctuation">(</span>'http<span class="token punctuation">:</span>www<span class="token punctuation">.</span>instagram<span class="token punctuation">.</span>com<span class="token operator">/</span>"<span class="token punctuation">)</span>
 
 element <span class="token operator">=</span> driver<span class="token punctuation">.</span>find_element_by_name<span class="token punctuation">(</span><span class="token string">"username"</span><span class="token punctuation">)</span>
 
