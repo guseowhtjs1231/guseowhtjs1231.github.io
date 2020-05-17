@@ -59,7 +59,7 @@ python py파일 만들지 않고 그냥 바로 python 쳐서 실행해 봤다.
 
 일단 
 
-```python ```
+```python
 
 from selenium import webdriver
 
@@ -126,6 +126,7 @@ driver.close()                             #브라우저를 종료한다.
 
 
 구글 검색창을 검사했을 때 가운데 위에서 살짝 오른쪽에 보면 name="q"를 볼 수 있다.
+```python
 find_elemeny_by_tag_name('h1')
 
 find_element_by_css_selector('#css > div.selector')
@@ -135,7 +136,7 @@ find_elemeny_by_class_name('some_class_name')
 find_element_by_xpath('/html/body/some/xpath')
 
 find_element_by_id('HTML_id')
-
+```
 이렇게 by_name 외에 단일 element에 접근하는 메소드가 있다.
 
 
@@ -149,7 +150,8 @@ find_element_by_id('HTML_id')
 
 
 
-elem.send_key('selenium') 했을 때 화면
+```python
+elem.send_key('selenium')``` 했을 때 화면
 
 
 
